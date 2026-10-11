@@ -22,6 +22,7 @@ export const CATEGORY_IDS = Object.keys(CATEGORIES) as [Category, ...Category[]]
 export const SEVERITY_LABELS = ["Info", "Notable", "Significant", "Dangerous"] as const;
 
 export const TIERS = [
+  { min: 500, name: "Developer", color: "#ecfc00" },
   { min: 500, name: "Legend", color: "#f472b6" },
   { min: 100, name: "Storm Chaser", color: "#f97316" },
   { min: 25, name: "Trusted Spotter", color: "#a78bfa" },
