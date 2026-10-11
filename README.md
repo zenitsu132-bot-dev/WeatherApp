@@ -1,4 +1,4 @@
-# StormCentral
+# StormCentral Plugin Development
 
 **Open-data weather for people who actually watch the sky.** StormCentral pairs a quiet, instrument-style interface (with a live, weather-reactive sky behind it) with professional meteorological tooling: live NEXRAD radar with storm-track projections, a drone pilot's go/no-go board, an angler's solunar and river dashboard, air-quality heatmaps, and a community **Spotter Network** where people post and verify ground-truth reports.
 
