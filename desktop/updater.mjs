@@ -79,7 +79,7 @@ export function initAutoUpdates(opts) {
       defaultId: 0,
       cancelId: 1,
       message: `StormCentral ${info.version} is ready to install`,
-      detail: "Restart to finish updating. If you choose Later, the update installs the next time you quit.",
+      detail: "Restart to finish updating. If you choose to update Later, the update installs the next time you quit.",
     });
     if (response === 0) setImmediate(() => autoUpdater.quitAndInstall());
   });
